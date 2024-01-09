@@ -1,4 +1,4 @@
-type Shape = {
+/* type Shape = {
 	area(): number;
 	perimeter(): number;
 };
@@ -39,3 +39,5 @@ const rectangle: Rectangle = new Rectangle(4, 6);
 
 console.log('Area of circle: ', calculateTotalArea(circle));
 console.log('Area of rectangle: ', calculateTotalArea(rectangle));
+
+*/
