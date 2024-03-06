@@ -56,7 +56,7 @@
 		}
 
 		public notifyObservers(): void {
-			this.observer.forEach((observer) => observer.update(this));
+ 			this.observer.forEach((observer) => observer.update(this));
 		}
 	}
 
