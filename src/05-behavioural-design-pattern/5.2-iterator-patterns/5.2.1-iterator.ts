@@ -16,8 +16,9 @@
 
 		/**
 		 * The hasNext function checks if the current position is within the bounds of the collection length.
-		 * @returns The hasNext() method is returning a boolean value, specifically whether the current
-		 * position is less than the length of the collection.
+		 * @returns The `hasNext()` method is returning a boolean value, specifically `true` if the current
+		 * position is less than the length of the collection, indicating that there are more elements to
+		 * iterate over, and `false` otherwise.
 		 */
 		public hasNext(): boolean {
 			return this.position < this.collection.length;
