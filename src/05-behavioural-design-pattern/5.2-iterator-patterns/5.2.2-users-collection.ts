@@ -93,4 +93,9 @@
 	console.log(iterator.next());
 	console.log(iterator.next());
 	console.log(iterator.next());
+
+	const iterator2 = userCollection.createIterator();
+
+	console.log(iterator2.next());
+	console.log(iterator2.next());
 })();
