@@ -8,10 +8,6 @@
 			this.decorate();
 		}
 
-		public bro() {
-			console.log('brooo!!!');
-		}
-
 		protected preHeatOven(): void {
 			console.log('Preheat oven to 175 degrees Celsius');
 		}
